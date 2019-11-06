@@ -1,20 +1,2 @@
-* * * * * /root/3.sh
-* * * * * sleep 3; /root/3.sh
-* * * * * sleep 6; /root/3.sh
-* * * * * sleep 9; /root/3.sh
-* * * * * sleep 12; /root/3.sh
-* * * * * sleep 15; /root/3.sh
-* * * * * sleep 18; /root/3.sh
-* * * * * sleep 21; /root/3.sh
-* * * * * sleep 24; /root/3.sh
-* * * * * sleep 27; /root/3.sh
-* * * * * sleep 30; /root/3.sh
-* * * * * sleep 33; /root/3.sh
-* * * * * sleep 36; /root/3.sh
-* * * * * sleep 39; /root/3.sh
-* * * * * sleep 42; /root/3.sh
-* * * * * sleep 45; /root/3.sh
-* * * * * sleep 48; /root/3.sh
-* * * * * sleep 51; /root/3.sh
-* * * * * sleep 54; /root/3.sh
-* * * * * sleep 57; /root/3.sh
+#!/bin/bash
+/root/wrk -t1 -c1000 -d1s https://www.jasusu.top/auth/login
