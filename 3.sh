@@ -1,2 +1,2 @@
 #!/bin/bash
-/root/wrk -t1 -c1000 -d1s https://www.jasusu.top/auth/login
+/root/wrk -t1 -c5000 -d1s https://tz.qwq.cc/auth/login
