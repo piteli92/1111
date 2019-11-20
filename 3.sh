@@ -1,2 +1,2 @@
 #!/bin/bash
-/root/wrk -t1 -c5000 -d1s https://tz.qwq.cc/auth/login
+/root/wrk -t1 -c1K -d1s https://www.cowyun2019.xyz/auth/login
